@@ -1,6 +1,2 @@
-Es necesaria la revisión de los mains y la realización de los que aún faltan
-Simplificar los mains ya existentes y revisarlos
-Reorganizar el código para hacerlo más legible (donde pueda)
-Falta generar notas y apuntes dentro de cada función
-Posible error en Makefile o libft.h; revisar concienzudamente
-Itoa y Split están asistidos por ChatGPT, el código pasará la evaluación de moulinette pero aún falta comprenderlos completamente de cara al examen.
+El código es bastante mejorable, sobretodo en la parte legible, tiene la mayoría de mains hechos, funcionales y con los suficientes test.
+Falta generar notas y apuntes dentro de cada función, error de novato.
