@@ -1,0 +1,55 @@
+Character Manipulation
+
+    ft_isalnum: Checks if a character is alphanumeric.
+    ft_isalpha: Checks if a character is alphabetic.
+    ft_isascii: Checks if a character is an ASCII character.   
+
+    ft_isdigit: Checks if a character is a digit.
+    ft_isprint: Checks if a character is printable.
+    ft_tolower: Converts a character to lowercase.
+    ft_toupper: Converts a character to uppercase.
+
+String Manipulation
+
+    ft_bzero: Sets a block of memory to zero.
+    ft_calloc: Allocates memory, initializes it to zero.
+    ft_strlen: Calculates the length of a string.
+    ft_strlcpy: Copies a string safely, preventing buffer overflows.
+    ft_strlcat: Concatenates strings safely, preventing buffer overflows.
+    ft_strchr: Finds the first occurrence of a character in a string.
+    ft_strrchr: Finds the last occurrence of a character in a string.
+    ft_strncmp: Compares two strings up to a specified number of characters.
+    ft_strnstr: Finds the first occurrence of a substring in a string.
+    ft_strdup: Duplicates a string.
+    ft_substr: Creates a substring from a string.
+    ft_strjoin: Concatenates two strings with a separator.
+    ft_split: Splits a string into an array of strings based on a delimiter.
+    ft_strtrim: Trims whitespace from the beginning and end of a string.
+    ft_striteri: Applies a function to each character of a string with index.
+    ft_strmapi: Creates a new string by applying a function to each character of a string with index.
+
+Memory Manipulation
+
+    ft_memcpy: Copies memory area.
+    ft_memmove: Copies memory area, handling overlapping regions.
+    ft_memchr: Finds the first occurrence of a character in a memory area.
+    ft_memcmp: Compares two memory areas.
+    ft_memset: Fills a memory area with a specific value.
+
+Input/Output
+
+    ft_putchar_fd: Writes a character to a file descriptor.
+    ft_putstr_fd: Writes a string to a file descriptor.
+    ft_putendl_fd: Writes a string followed by a newline to a file descriptor.
+    ft_putnbr_fd: Writes an integer to a file descriptor.
+
+Type Conversion
+
+    ft_atoi: Converts a string to an integer.
+    ft_itoa: Converts an integer to a string.
+
+**Friendly reminder**
+
+This project only has the mandatory part, it can be rewritten for better performance/legibility.
+It does not have all the int main or enough tests to prove their efficiency, the addition of a test.c.
+It is not the best project around, but overall is better than most in github.
