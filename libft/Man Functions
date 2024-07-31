@@ -51,5 +51,5 @@ Type Conversion
 **Friendly reminder**
 
 This project only has the mandatory part, it can be rewritten for better performance/legibility.
-It does not have all the int main or enough tests to prove their efficiency, the addition of a test.c.
-It is not the best project around, but overall is better than most in github.
+It does not have all the int main or enough tests to prove their efficiency.
+It is not the best project around, but overall is better than most in github (without the bonus part).
