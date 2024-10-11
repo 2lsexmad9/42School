@@ -104,3 +104,20 @@ char	*get_next_line(int fd)
 	storage = clean_storage(storage);
 	return (line);
 }
+/*int	main(void)
+{
+	int		fd;
+	char	*line;
+	int		a = 6;
+
+	fd = open("test.txt", O_RDONLY);
+	while (a)
+{
+		line = get_next_line(fd);
+		printf("> %s", line);
+		free(line);
+		a --;
+	}
+	int close(int fd);
+	return (0);
+}*/
