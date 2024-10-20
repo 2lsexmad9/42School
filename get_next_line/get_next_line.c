@@ -1,4 +1,4 @@
-/* ************************************************************************** */
+* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
@@ -6,7 +6,7 @@
 /*   By: adal-bos <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 05:58:58 by adal-bos          #+#    #+#             */
-/*   Updated: 2024/10/16 05:59:01 by adal-bos         ###   ########.fr       */
+/*   Updated: 2024/10/20 16:17:19 by adal-bos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,3 +114,23 @@ char	*get_next_line(int fd)
 	remain = ft_remove_line(remain);
 	return (line);
 }
+
+/*#include <stdio.h>
+int			main(int ac, char **av)
+{
+	int		fd;
+	char	*line;
+
+
+	line = NULL;
+	fd = open(av[1], O_RDONLY);
+	while (ac)
+	{
+		line = get_next_line(fd);
+		printf("line: %s\n", line);
+		if (!line)
+			break ;
+		free(line);
+	}
+	close(fd);
+}*/
