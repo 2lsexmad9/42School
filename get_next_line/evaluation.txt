@@ -1,0 +1,2 @@
+gcc to get_next_line.c and get_next_line_utils.c
+valgrind --leak-check=full ./a.out test1.txt
